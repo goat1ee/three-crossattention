@@ -5,10 +5,7 @@ xai-bJpHFzlPD7ABQ9xFEb17uBA63P4rkma8HA68gONVoTUNhmzBuwDpaOg909Ytuu3xbhVCzgPO1Nhs
 请根据上面的四块代码，根据输出的每一个json文件，优化下面的模型代码，让模型更加合理，可以正常运行，并且将这个代码与上文重复的代码（库和全局种子，参数设置等）删掉，并且丰富prompt，英文版本。
 
 
-ssh-keygen -t rsa -C "aa1210876561@gmail.com"
 
-
-https://github.com/goat1ee/three-crossattention.git
 
 5555
 
