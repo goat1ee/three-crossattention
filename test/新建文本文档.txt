@@ -1,0 +1,35 @@
+请根据以下信息和数据，背景信息，结果和代码详细撰写以下部分，不要列条数，不要无中生有，要分析的深入，不要浅谈，不要输出代码和表格，下面没说的别写：
+
+xai-bJpHFzlPD7ABQ9xFEb17uBA63P4rkma8HA68gONVoTUNhmzBuwDpaOg909Ytuu3xbhVCzgPO1Nhsvo7w
+
+请根据上面的四块代码，根据输出的每一个json文件，优化下面的模型代码，让模型更加合理，可以正常运行，并且将这个代码与上文重复的代码（库和全局种子，参数设置等）删掉，并且丰富prompt，英文版本。
+
+
+ssh-keygen -t rsa -C "aa1210876561@gmail.com"
+
+
+https://github.com/goat1ee/three-crossattention.git
+
+5555
+
+
+
+```python
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import DataLoader
+from torchvision import datasets, transforms
+from transformers import AutoModel, AutoTokenizer, AutoConfig, AutoModelForSequenceClassification
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+import random
+import numpy as np
+
+# Set random seeds for reproducibility
+random.seed(42)
+np.random.seed(42)
+torch.manual_seed(42)
+torch.cuda.manual_seed_all(42)
+
+# Load the dataset
+transform = transforms.Compose([transforms.ToTensor()])
